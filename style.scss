@@ -1,0 +1,34 @@
+@import 'variables';
+@import 'reboot';
+@import 'grid';
+@import 'navbar';
+@import 'logo';
+@import 'footer';
+@import 'header';
+@import 'conten';
+@import 'togle';
+@import 'price';
+@import 'form';
+
+
+$colors: (
+  primary: blue,
+  secondary: green,
+  accent: red
+);
+
+@each $name, $color in $colors {
+  .#{$name}-text {
+    color: $color;
+  }
+  
+  @if $name == primary {
+    .#{$name}-background {
+      background-color: $color;
+    }
+  } @else {
+    .#{$name}-background {
+      background-color: lighten($color, 20%);
+    }
+  }
+}

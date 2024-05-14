@@ -1,0 +1,27 @@
+.header {
+    background: linear-gradient(45deg, #5893d4 50%, #070d59 50%);
+    background-size: 200% 200%;  
+    animation: gradient 3s ease forwards;
+  
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+  
+    color: #fff;
+    padding: 20px 0;
+   
+  }
+
+.header h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+.header p {
+    margin-bottom: 20px;
+  }

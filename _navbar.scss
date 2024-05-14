@@ -1,0 +1,57 @@
+// Variabel
+$primary_color: #ff5733;
+
+// Navbar
+.navbar {
+    margin-left: 35%; // Margin kiri
+    margin-right: 5%; // Margin kanan
+}
+// Navbar brand
+.navbar-brand {
+    font-size: 1.5rem; // Ukuran font
+    font-weight: bold; // Ketebalan font
+    color: #000; // Warna teks
+}
+
+// Navbar link
+.navbar-nav .nav-link {
+    color: #000 !important; // Warna teks
+    font-size: 1rem; // Ukuran font
+    padding: 0.5rem 1rem; // Padding
+}
+
+// Navbar link hover
+.navbar-nav .nav-link:hover {
+    color: #fff !important; // Warna teks saat hover
+    background-color: lighten($primary_color, 10%); // Warna latar belakang saat hover
+}
+
+// Dropdown menu
+.dropdown-menu {
+    background-color: $primary_color; // Warna latar belakang dropdown menu
+}
+
+// Dropdown item
+.dropdown-item {
+    color: #ffffff; // Warna teks
+}
+
+// Dropdown item hover/focus
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: lighten($primary_color, 10%); // Warna latar belakang saat hover/focus
+}
+
+// Efek hover pada gambar
+.img-fluid {
+    transition: transform 0.3s ease; // Efek transisi saat hover
+}
+
+.img-fluid:hover {
+    transform: scale(1.05); // Memperbesar gambar saat hover
+}
+
+// Navbar yang mengikuti header
+.navbar.follow-header {
+    background-color: $primary_color; // Warna latar belakang mengikuti header
+}

@@ -1,0 +1,63 @@
+.footer {
+    background: linear-gradient(45deg, #5893d4 50%, #070d59 50%);
+    background-size: 200% 200%;
+    animation: gradient 3s ease forwards;
+  
+    @keyframes gradient {
+      0% {
+        background-position: 50% 0%;
+      }
+      100% {
+        background-position: 50% 100%;
+      }
+    }
+  
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 5%;
+    
+  }
+  .footer-posisi{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: red;
+      color: white;
+      text-align: center;
+    
+  }
+
+  .footer h5 {
+    font-size: 1.2rem; 
+  }
+  
+  .footer p {
+    font-size: 0.9rem; 
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px; 
+  }
+  
+  .footer iframe {
+    margin-top: 10px; 
+  }
+  
+  .footer {
+    .list-inline-item img {
+      width: 30px; 
+      height: auto; 
+    }
+  }
+
+  #map {
+    height: 150px; 
+    //width: 10%; 
+  }
+
+  .separator {
+    border-left: 5px solid $body-color; 
+    height: 100%; 
+    margin: 0; 
+}

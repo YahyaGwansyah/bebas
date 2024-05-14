@@ -1,0 +1,18 @@
+// Gaya untuk tombol "Open/Close"
+.toggle-specs {
+    margin-top: 10px; // Beri jarak antara tombol dan gambar
+  }
+  
+  // Gaya untuk spesifikasi kamera
+  .specs {
+    margin-top: 10px; // Beri jarak antara gambar dan spesifikasi
+    padding: 10px; // Tambahkan padding untuk tampilan yang lebih baik
+    background-color: #f8f9fa; // Warna latar belakang untuk spesifikasi
+    display: none; // Sembunyikan spesifikasi secara default
+  }
+  
+  // Gaya untuk spesifikasi yang sedang ditampilkan
+  .specs.active {
+    display: block; // Tampilkan spesifikasi yang sedang aktif
+  }
+  
